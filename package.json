@@ -1,0 +1,14 @@
+{
+  "name": "datachannels",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webrtc-streeam.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jerome creignou",
+  "license": "ISC",
+  "dependencies": {
+    "webrtc-stream": "^0.5.0"
+  }
+}
