@@ -1,5 +1,5 @@
 const http = require('http');
-const ecstatic =  reuquire('ecstatic')({
+const ecstatic =  require('ecstatic')({
   root: `${__dirname}/public`
 });
 
