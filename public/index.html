@@ -5,12 +5,26 @@
         width: 600px;
         word-wrap: break-word;
       }
+      .remote {
+        color:darkgreen;
+        font-weight: bold
+      }
+      .local {
+        color:gray;
+        font-style: italic
+      }
     </style>
     <form>
       <textarea id="incoming"></textarea>
       <button type="submit">submit</button>
     </form>
     <pre id="outgoing"></pre>
+    <div id="chat" style="display:none">
+      <div id="history"></div>
+      <div id="message">
+        <input type="text" name="" id=""><button type="submit">submit</button>
+      </div>
+    </div>
     <script src="bundle.js"></script>
   </body>
 </html>
