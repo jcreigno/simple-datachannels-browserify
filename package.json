@@ -10,7 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "ecstatic": "^3.0.0",
-    "qr-image": "^3.2.0",
     "simple-peer": "^8.1.1",
     "webrtc-stream": "^0.5.0"
   }

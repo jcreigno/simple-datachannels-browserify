@@ -6,11 +6,11 @@ p.on('error', function (err) { console.log('error', err) })
 p.on('signal', function (data) {
   console.log('SIGNAL', JSON.stringify(data))
   document.querySelector('#outgoing').textContent = JSON.stringify(data)
-  var qr = require('qr-image');
+  /*var qr = require('qr-image');
   var qr_img = qr.imageSync(window.origin + '?sdp=' + JSON.stringify(data), { type: 'png' });
   var img = document.createElement('img');
   img.src='data:image/png;base64,' + qr_img.toString('base64')
-  document.querySelector('form').appendChild(img);
+  document.querySelector('form').appendChild(img);*/
   //console.log('qr code', qr_svg);
 })
 
